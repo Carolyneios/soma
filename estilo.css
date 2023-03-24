@@ -1,0 +1,99 @@
+body{
+    
+    background-size: 100%;
+    background-image: url(novo.mp4);
+    background-repeat: no-repeat;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-family: 'Indie Flower', cursive;
+    cursor: url(cursor.cur), default ;
+    
+}
+
+input{
+    font-size: 50px;
+    margin: 40px;
+    background-color: rgba(14, 118, 25, 0);
+    color: rgb(0, 0, 0);
+    
+}
+
+
+
+
+
+h1{
+    padding-top: 0;
+    margin-left:90px;
+    font-size: 40px;
+    color: rgb(0, 0, 0) ;
+    
+   
+}
+
+input{
+    transform: scale(1.1);
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+    color: rgb(0, 0, 0);
+    font-family: 'Indie Flower', cursive;
+  
+}
+
+#resp{
+    
+    color: rgba(4, 4, 4, 0.977);
+    width: 800px ;
+    font-size: 40px;
+    margin-top: 0;
+    margin: 30px;
+   
+}
+
+.soma{
+    
+    font-family: 'Indie Flower', cursive;
+    display: inline;
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px black;
+    
+}
+
+footer{
+    
+  background-color: rgba(6, 6, 6, 0.127);
+    color: rgb(252, 219, 7);
+    justify-content: center;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    bottom: 0vh;
+    left: 0;
+    text-align: center;
+    padding: 5px;
+    
+   
+}
+
+.soma:hover {
+    transform: scale(1.1);
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px;
+}
+
+.corp{
+    margin-left:70px;
+    width: 100px;
+}
+
+.bg_video{
+	position: fixed; 
+	right: 0; 
+	bottom: 0;
+	min-width: 100%; 
+	min-height: 100%;
+	width: auto; 
+	height: auto; 
+	z-index: -1000;
+	background-size: cover; 
+}
