@@ -59,21 +59,7 @@ input{
     
 }
 
-footer{
-    
-  background-color: rgba(6, 6, 6, 0.127);
-    color: rgb(252, 219, 7);
-    justify-content: center;
-    position: fixed;
-    display: flex;
-    width: 100%;
-    bottom: 0vh;
-    left: 0;
-    text-align: center;
-    padding: 5px;
-    
-   
-}
+
 
 .soma:hover {
     transform: scale(1.1);
@@ -96,4 +82,30 @@ footer{
 	height: auto; 
 	z-index: -1000;
 	background-size: cover; 
+}
+
+footer{
+
+background-color: rgba(0, 0, 0, 0.927);
+color: rgb(0, 0, 0);
+justify-content: center;
+position: fixed;
+display: flex;
+width: 100%;
+bottom: 0vh;
+left: 0;
+text-align: center;
+padding: 5px;
+letter-spacing: 10px;
+
+}
+
+p{
+   color: rgb(252, 219, 7);
+    font-size: 20px;
+}
+
+a{
+   color: rgb(252, 219, 7);
+    
 }
